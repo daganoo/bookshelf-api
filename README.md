@@ -64,6 +64,18 @@
 
 ---
 
+## ☁️ AWS Infrastructure
+
+| Service | Detail |
+|---|---|
+| **EC2** — Elastic Compute Cloud | Virtual server running the Node.js API, `t2.micro`, Ubuntu 22.04 |
+| **RDS** — Relational Database Service | Managed PostgreSQL, `db.t3.micro`, database: `bookshelf` |
+| **VPC** — Virtual Private Cloud | Auto-created private network connecting EC2 ↔ RDS |
+| **Security Groups** | Firewall rules: ports **22** (SSH), **80** (HTTP), **3000** (Node.js) open |
+| **Nginx** | Reverse proxy on EC2 in front of the Node.js app |
+
+---
+
 ## 🧱 Project Structure
 
 ```
@@ -342,10 +354,10 @@ docker run -p 3000:3000 --env-file .env bookshelf-api
 
 ## 📄 License
 
-ISC © 2024
+ISC © 2026
 
 ---
 
 <div align="center">
-  <sub>Built with ❤️ using Express, React, and PostgreSQL</sub>
+  <sub>Built by Marouane Dagana</sub>
 </div>
