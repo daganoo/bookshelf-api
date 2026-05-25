@@ -23,7 +23,6 @@
 
 ## 📸 Screenshots
 
-> _Replace these placeholders with actual screenshots of your running application._
 
 <div align="center">
   <table>
@@ -39,7 +38,6 @@
     </tr>
   </table>
   <br/>
-  <sub><i>Place screenshot PNGs in <code>docs/images/</code> and name them <code>screenshot-login.png</code>, <code>screenshot-dashboard.png</code>, <code>screenshot-detail.png</code>.</i></sub>
 </div>
 
 ---
